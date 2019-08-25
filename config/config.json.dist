@@ -1,0 +1,22 @@
+{
+    "timezone": "Europe/Helsinki",
+    "db": {
+        "dialect": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "name": "hslcongestion",
+        "username": "",
+        "password": "",
+        "forceSync": false,
+        "logging": false,
+        "socketPath": ""
+    },
+    "mqtt": {
+        "host": "mqtt.hsl.fi",
+        "port": 1883,
+        "topics": [
+            "/hfp/v2/journey/ongoing/doo/tram/#",
+            "/hfp/v2/journey/ongoing/doc/tram/#"
+        ]
+    }
+}

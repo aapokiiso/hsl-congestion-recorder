@@ -1,0 +1,43 @@
+{
+    "name": "@aapokiiso/hsl-congestion-recorder",
+    "version": "1.0.0",
+    "description": "Records tram door status at stops for congestion estimation",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "husky": {
+        "hooks": {
+            "pre-push": "npm run lint"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aapokiiso/hsl-congestion-recorder.git"
+    },
+    "author": "Aapo Kiiso <aapo@kii.so>",
+    "license": "CC0-1.0",
+    "bugs": {
+        "url": "https://github.com/aapokiiso/hsl-congestion-recorder/issues"
+    },
+    "homepage": "https://github.com/aapokiiso/hsl-congestion-recorder#readme",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@lamiaoy/eslint-config": "^2.0.1",
+        "eslint": "^6.2.2",
+        "husky": "^3.0.4"
+    },
+    "dependencies": {
+        "@aapokiiso/hsl-congestion-db-schema": "^2.0.1",
+        "@aapokiiso/hsl-congestion-graphql-gateway": "^2.0.1",
+        "@aapokiiso/hsl-congestion-route-pattern-repository": "^1.0.0",
+        "@aapokiiso/hsl-congestion-stop-repository": "^1.0.1",
+        "@aapokiiso/hsl-congestion-trip-repository": "^1.0.0",
+        "@aapokiiso/hsl-congestion-utils": "^1.0.2",
+        "moment": "^2.24.0",
+        "moment-timezone": "^0.5.26",
+        "mqtt": "^3.0.0",
+        "mysql2": "^1.6.5"
+    }
+}
