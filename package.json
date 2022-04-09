@@ -35,7 +35,7 @@
         "@aapokiiso/hsl-congestion-stop-repository": "^1.0.1",
         "@aapokiiso/hsl-congestion-trip-repository": "^1.0.0",
         "@aapokiiso/hsl-congestion-utils": "^1.0.2",
-        "moment": "^2.24.0",
+        "moment": "^2.29.2",
         "moment-timezone": "^0.5.26",
         "mqtt": "^3.0.0",
         "mysql2": "^1.6.5"
